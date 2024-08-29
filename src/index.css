@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    font-family: 'Montserrat', sans-serif !important;   
+    font-weight:500;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #edd2c3 !important;
+    /* background-color: #cf8f50 !important; */
+}
+primaryColor{
+    background-color: #edd2c3;
+
+} 
+secondaryColor{
+    background-color:#af5006 ;
+}
+tertiaryColor{
+    background-color: #fbbc45;
+}
+quaternaryColor{
+    background-color: #cf8f50 ;
+}
+
+.info:hover{
+    background-color: #cf8f50 !important;
+}
+.ant-form-item{
+    margin-bottom: 0 !important;
+}
+
+Button:hover{
+    background-color: #cf8f50 !important;
+}
+label{
+    color: #af5006 !important;
+    font-weight: bold;
+}
+
+span .ant-upload{
+    background-color: #af5006 !important;
+    color:#edd2c3;
+}
+
+table{
+    border: 1px solid #cf8f50;
+    background-color: #cf8f50;
+    margin-top: 20px;
+}
+
+th.ant-table-cell{
+    background-color: #af5006 !important;
+    border:#af5006 !important;
+}
+td.ant-table-cell.ant-table-cell-row-hover{
+   background-color: #edd2c3 !important;
+}
+li.ant-pagination-item.ant-pagination-item-1.ant-pagination-item-active{
+    background-color: #cf8f50 ;
+    border:none;
+    color: #fbbc45 !important;
+}
+
+div.ant-upload-list-item{
+    background-color: white;
+}
+InputNumber{
+    background-color: #cf8f50 !important;
+}
+.ant-input-number-input{
+    background-color: #cf8f50 !important;
+    color:#edd2c3 !important;
+    font-weight: 800 !important;
+   
+}
+textarea.ant-input.css-dev-only-do-not-override-8y2sdr:hover{
+    background-color: #cf8f50 important!;
+}
+.ant-modal-content{
+    background-color: #edd2c3 !important;
+}
+.ant-modal-title{
+    background-color:#edd2c3 !important;
+}
